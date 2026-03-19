@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - MASP</title>
+    <link rel="stylesheet" href="css/galeria.css">
+</head>
+<body>
+
+    <h1 class="titulo">Galeria de Artes</h1>
+
+    <div class="galeria-grid" id="galeria"></div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+
+            <img id="modalImg" alt="Arte selecionada">
+
+            <p class="info"><strong>Artista:</strong> <span id="modalArtista"></span></p>
+            <p class="info"><strong>Data:</strong> <span id="modalData"></span></p>
+        </div>
+    </div>
+
+    <script src="js/galeria.js"></script>
+</body>
+</html>
